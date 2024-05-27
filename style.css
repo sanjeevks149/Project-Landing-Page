@@ -7,12 +7,13 @@ body{
 }
 .header{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     color:white;
     padding-top: 16px;
     padding-bottom: 120px;
-    gap: px;}
+    gap: 400px;
+}
 ul{
     list-style: none;
     padding: 0;
@@ -40,19 +41,19 @@ a{
 }
 .hero{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 28px;
     
 }
 .container{
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    padding-left: 200px;
-    padding-right: 200px;
     padding-bottom: 120px;
 }
 .hero-text{
     width: 450px;
+    height: 200px;
     height: auto;
     color: #E5E7EB;
     font-size: 18px;
@@ -63,9 +64,12 @@ h1{
     color: #F9FAF8;
     font-weight: extra-bold;
 }
-img{
+img,
+.image1{
     width: 500px;
     height: 250px;
+    border: 0;
+    border-radius: 0;
 }
 button,
 .sign-up{
@@ -80,4 +84,46 @@ button,
 }
 p{
     margin: 8px 0px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 120px;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:16px
+}
+h2{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color:#1F2937;
+    text-align: center;
+    margin: 42px 0px;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+
+}
+img,
+image2{
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    border: solid #3882F6 4px;
+}
+label{
+    display: flex;
+    width: 150px;
+    color: #1F2937;
 }
