@@ -50,6 +50,8 @@ a{
     display: flex;
     flex-direction: column;
     padding-bottom: 120px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 .hero-text{
     width: 450px;
@@ -89,6 +91,8 @@ p{
     display: flex;
     flex-direction: column;
     padding-bottom: 120px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 .img-container{
     display: flex;
@@ -122,8 +126,75 @@ image2{
     border-radius: 8px;
     border: solid #3882F6 4px;
 }
-label{
+label.name{
     display: flex;
     width: 150px;
     color: #1F2937;
 }
+.quote{
+    background-color:#E5E7EB ;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+p.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    display: flex;
+    margin: 0;
+    width: 780px;
+    height: auto;
+    padding-top: 100px;
+
+    
+}
+label.author-name{
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+    padding-bottom: 100px;
+    margin-left: 500px;
+}
+.author{
+    display: flex;
+    
+}
+.action{
+    display: flex;
+    justify-content:center;
+}
+.box{
+    width: 1000px;
+    height: 150px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    color: white;
+    gap: 64px;
+}
+h4{
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    
+}
+button,
+.action-button{
+    border: solid white 2px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color:#1F2937 ;
+    color: white;
+    padding: 28px;
+}
+
+
